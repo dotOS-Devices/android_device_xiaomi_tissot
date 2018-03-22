@@ -30,6 +30,9 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/tissot
 # Partitions
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 55087422464 # 25765059584 - 16384
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/enable_dt2w"
+
 # Root Folders
 BOARD_ROOT_EXTRA_FOLDERS := dsp firmware persist
 
