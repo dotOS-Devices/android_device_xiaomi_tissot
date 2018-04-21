@@ -24,7 +24,7 @@ BOARD_USES_RECOVERY_AS_BOOT := true
 TARGET_NO_RECOVERY := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := tissot_defconfig
+TARGET_KERNEL_CONFIG := custom_tissot-perf_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/tissot
 
 # Partitions
