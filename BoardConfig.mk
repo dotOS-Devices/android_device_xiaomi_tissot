@@ -39,8 +39,8 @@ TARGET_SYSTEM_PROP := $(DEVICE_PATH)/system.prop
 # Root Folders
 BOARD_ROOT_EXTRA_FOLDERS := dsp firmware persist
 
-# Shims
-TARGET_LD_SHIM_LIBS := /system/vendor/lib/hw/camera.msm8953.so|libshims_skia.so
+# Sepolicy
+BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/tissot/BoardConfigVendor.mk
